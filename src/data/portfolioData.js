@@ -113,6 +113,8 @@ const pipeline = {
 }`,
 ];
 
+export const resumeUrl = "/resume.pdf";
+
 export const navItems = [
   { key: "hello", label: "_hello" },
   { key: "about-me", label: "_about-me" },
