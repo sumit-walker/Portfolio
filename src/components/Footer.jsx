@@ -1,5 +1,5 @@
-import { Linkedin } from "lucide-react";
-import { profile } from "../data/portfolioData";
+import { FileText, Linkedin } from "lucide-react";
+import { profile, resumeUrl } from "../data/portfolioData";
 
 function XIcon({ size }) {
   return (
@@ -13,6 +13,9 @@ function XIcon({ size }) {
 export default function Footer() {
   return (
     <div className="flex items-center h-10 px-[18px] gap-3 border-t border-border bg-bg-panel text-[11.5px] text-text-faint shrink-0">
+      <a href={resumeUrl} download className="flex items-center gap-[5px] text-text-dim hover:text-teal no-underline">
+        <FileText size={13} />resume
+      </a>
       <span className="text-text-dim">find me in:</span>
       <a
         href={profile.x}
