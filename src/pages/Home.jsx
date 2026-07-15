@@ -82,8 +82,8 @@ export default function Home() {
           </div>
           <div className="flex justify-between sm:justify-start" style={{ height: '200px' }}>
             <Cubes 
-              gridSize={4}
-              maxAngle={45}
+              gridSize={6}
+              maxAngle={59}
               radius={3}
               borderStyle="3px dashed #5eead4"
               faceColor="#1a1a2e"
