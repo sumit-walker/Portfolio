@@ -53,7 +53,9 @@ export default function Home() {
               {!gameCompleted && (
                 <>
                   <div className="text-text-faint">
-                    // scroll down and complete the game to continue
+                    {isDesktop
+                      ? "// complete the game to continue"
+                      : "// scroll down and complete the game to continue"}
                   </div>
                   <div className="text-text-faint">// find my profile on Github:</div>
                   <div className="break-all opacity-40 select-none">
